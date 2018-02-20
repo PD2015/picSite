@@ -13,6 +13,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'carrierwave', '~> 1.0.0'
 gem 'administrate-field-carrierwave', '~> 0.3.0'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
