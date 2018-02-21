@@ -1,6 +1,6 @@
 class PhotosController < ApplicationController
   before_action :authenticate_user!, only: [:edit, :update, :destroy]
-  # before_action :set_photo, only: [:show, :edit, :update, :destroy]
+  before_action :set_photo, only: [:show, :edit, :update, :destroy]
    after_action :verify_authorized, only: [:edit, :update, :destroy]
 
   # GET /photos
